@@ -1,5 +1,5 @@
 # MaxConnect-4
-This is a connect 4 game I developed for in my Artificial Intelligence class at UTA.
+This is a connect 4 game I developed for my Artificial Intelligence class at UTA.
 
 Programming language used - Java
 
