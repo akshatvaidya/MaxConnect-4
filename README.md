@@ -25,12 +25,13 @@ The code is divided into three files.
    printing the gameboard to console as well as an output file,  
 
 How to run:
-1) Unzip the file.
-2) Paste the text file where the Maxconnect4.java file is extracted. (Please
-   keep all the .java files and .txt files together in one folder only.)
-3) Open cmd and go the directory where the zip file is extracted. Compile the program using command:
+(Please keep all the .java files and .txt files together in one folder only.)
+
+In the input files, a 0 stands for an empty spot, a 1 stands for a piece played by the first player, and a 2 stands for a piece played by the second player. The last number in the input file indicates which player plays NEXT (and NOT which player played last).
+
+1) Compile the program using command:
    javac Maxconnect4.java
-4) Run the program in following ways:
+2) Run the program in following ways:
 	1) For Single-Move mode:
 		java Maxconnect4 one-move inputFileName.txt outputFileName.txt depth
 	2) For Interactive mode:
